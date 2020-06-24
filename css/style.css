@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
+}
+.navbar{
+    padding-top: 30px;
+    margin-top: -33px;
+    background:white;
+}
+#title{
+    font-weight: lighter;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#desc{
+    padding-top: 2px;
+    color: black;
+    text-align: center;
+    font-size: smaller;
+}
+
+#logo{
+    height: 45px;
+    width: 45px;
+    margin-left: 28px;
+    margin-top: -65px;
+    margin-bottom: 20px;
+}
+
+
+.options{
+    float: right;
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 2em;
+    margin-top: -35px;
+}
+
+
+.options a{
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: small;
+    font-weight: lighter;
+    padding: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+}
+#icon{
+   padding-left: 5px; 
+}
+
+#line,{
+    margin-top: 20px;
+    box-shadow: 2px 2px 12px  black;
+
+}
+
+.options a:hover{
+    background-color: black;
+    transition: 1.5s;
+    color:white;
+}
+
+.content{
+    margin-left: 52px;
+}   
+
+hr{
+    box-shadow: 2px 2px 12px  black;
+    width: auto;
+}
+
+#quote{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+.images{
+    background-color: white;
+    max-width: 310px;
+    overflow: hidden;
+    margin-top: 10em;
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+}
+
+.images p{
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+}
+.images:hover{
+    margin-bottom: 6px;
+    background-color: black;
+    transition: 1.6s;
+    box-shadow: 5px 5px 8px white;
+}
+
+footer{
+    background-color: black;
+    height: 100%;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+    font-size: smaller;
+    color: white;
+}
+#him{
+    margin-right: 10px;
+}
+#him h3, #her h3, #kids h3, #Accessories h3{
+    text-align: center;    
+    padding-bottom: 5px;
+}
+
+#him hr, #her hr, #kids hr, #Accessories hr{
+    /* margin-bottom: 10px; */
+    border-color: black;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    width: 20%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.him-wrapper, .her-wrapper, .kids-wrapper, .accs-wrapper{
+    display: inline-block;
+    width: 40%;
+    border-radius: 20px;
+    max-width: 220px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    padding: 30px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.him-wrapper:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 3px whitesmoke;
+}
+
+.her-wrapper:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 3px whitesmoke;
+}
+
+.kids-wrapper:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 3px whitesmoke;
+}
+
+.accs-wrapper:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 3px whitesmoke;
+}
+
+.him-wrapper img, .her-wrapper img, .kids-wrapper img, .accs-wrapper img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.him-wrapper p, .her-wrapper p, .her-wrapper p, .accs-wrapper p{
+    font-weight: bolder;
+    margin-top: 5px;
+    text-align: center;
+}

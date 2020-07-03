@@ -6,14 +6,9 @@
 body{
     background:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
 }
-.navbar{
-    padding-top: 30px;
-    margin-top: -33px;
-    background:white;
-}
 #title{
     font-weight: lighter;
-    margin-top: 1em;
+    margin-top: .6em;
     text-align: center;
 }
 
@@ -24,20 +19,14 @@ body{
     font-size: smaller;
 }
 
-#logo{
-    height: 45px;
-    width: 45px;
-    margin-left: 28px;
-    margin-top: -65px;
-    margin-bottom: 20px;
-}
 
 .searchbox{
-    margin-left: 30px;
-    margin-top: -25px;
     padding: 5px;
-       
+    margin-top: -100px;
+    margin-left: 30px;
+
 }
+
 .options{
     float: right;
     display: inline-flex;
@@ -62,8 +51,8 @@ body{
    padding-left: 5px; 
 }
 
-#line,{
-    margin-top: 20px;
+#line{
+    margin-top: 10px;
     box-shadow: 2px 2px 12px  black;
 
 }
@@ -156,27 +145,27 @@ footer p{
     margin-bottom: 100px;
     background-color: whitesmoke;
     padding: 30px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px white;
 }
 
 .him-wrapper:hover{
     transition: 1s;
-    box-shadow: 1px 1px 3px whitesmoke;
+    box-shadow: 1px 1px 3px black;
 }
 
 .her-wrapper:hover{
     transition: 1s;
-    box-shadow: 1px 1px 3px whitesmoke;
+    box-shadow: 1px 1px 3px black;
 }
 
 .kids-wrapper:hover{
     transition: 1s;
-    box-shadow: 1px 1px 3px whitesmoke;
+    box-shadow: 1px 1px 3px black;
 }
 
 .accs-wrapper:hover{
     transition: 1s;
-    box-shadow: 1px 1px 3px whitesmoke;
+    box-shadow: 1px 1px 3px black;
 }
 
 .him-wrapper img, .her-wrapper img, .kids-wrapper img, .accs-wrapper img{
@@ -185,8 +174,9 @@ footer p{
     overflow: hidden;
 }
 
-.him-wrapper p, .her-wrapper p, .her-wrapper p, .accs-wrapper p{
-    font-weight: bolder;
-    margin-top: 5px;
+.him-wrapper p, .her-wrapper p, .kids-wrapper p, .accs-wrapper p{
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: -12px;
     text-align: center;
 }

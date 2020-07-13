@@ -4,26 +4,36 @@
     font-family: Montserrat;
 }
 body{
-    background:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
+    background:white;
 }
+
+header{
+    background-color: black;
+}
+
 #title{
+    color: white;
     font-weight: lighter;
-    margin-top: .6em;
+    padding-top: .8em;
     text-align: center;
 }
 
 #desc{
+    padding-bottom: 10px;
     padding-top: 2px;
-    color: black;
+    color: white;
     text-align: center;
     font-size: smaller;
 }
 
 
 .searchbox{
-    padding: 5px;
-    margin-top: -100px;
-    margin-left: 30px;
+    border-width: 0.5px;
+    border-radius: 5px;
+    left: 25px;
+    bottom: 35px;
+    position: relative;
+    padding: 2px;
 
 }
 
@@ -45,22 +55,22 @@ body{
     padding-left: 10px;
     display: inline-flex;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 #icon{
    padding-left: 5px; 
 }
 
 #line{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     box-shadow: 2px 2px 12px  black;
 
 }
 
 .options a:hover{
-    background-color: black;
+    background-color: white;
     transition: 1.5s;
-    color:white;
+    color:black;
 }
 
 .content{
@@ -118,10 +128,33 @@ footer p{
     font-size: smaller;
     color: white;
 }
+
 #him{
+    width: 100%;
     margin-right: 10px;
+    background-color: lavender;
 }
+
+#her{
+    width: 100%;
+    margin-right: 10px;
+    background-color: hotpink;
+}
+
+#kids{
+    width: 100%;
+    margin-right: 10px;
+    background-color: lightblue;
+}
+
+#Accessories{
+    width: 100%;
+    margin-right: 10px;
+    background-color: lavender;
+}
+
 #him h3, #her h3, #kids h3, #Accessories h3{
+    padding-top: 10px;
     text-align: center;    
     padding-bottom: 5px;
 }
@@ -129,10 +162,11 @@ footer p{
 #him hr, #her hr, #kids hr, #Accessories hr{
     /* margin-bottom: 10px; */
     border-color: black;
-    margin-left: 40%;
-    margin-bottom: 30px;
-    width: 20%;
-    box-shadow: 3px 3px 3px black;
+    left: 45%;
+    align-content: center;
+    position: relative;
+    width: 10%;
+    box-shadow: 1px 1px 1px black;
 }
 
 .him-wrapper, .her-wrapper, .kids-wrapper, .accs-wrapper{
@@ -143,32 +177,37 @@ footer p{
     margin-left: 40px;
     margin-top: 30px;
     margin-bottom: 100px;
-    background-color: whitesmoke;
-    padding: 30px;
-    box-shadow: 1px 1px 1px white;
+    background-color: transparent;
+    padding: 20px;
+    /* box-shadow: 1px 1px 1px gray; */
 }
 
 .him-wrapper:hover{
-    transition: 1s;
-    box-shadow: 1px 1px 3px black;
+    background-color: white;
+    transition: 2s;
+    
 }
 
 .her-wrapper:hover{
-    transition: 1s;
-    box-shadow: 1px 1px 3px black;
+    background-color: white;
+    transition: 2s;
+    
 }
 
 .kids-wrapper:hover{
-    transition: 1s;
-    box-shadow: 1px 1px 3px black;
+    background-color: white;
+    transition: 2s;
+    
 }
 
 .accs-wrapper:hover{
-    transition: 1s;
-    box-shadow: 1px 1px 3px black;
+    background-color: white;
+    transition: 2s;
+    
 }
 
 .him-wrapper img, .her-wrapper img, .kids-wrapper img, .accs-wrapper img{
+    border-radius: 4px;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -177,6 +216,7 @@ footer p{
 .him-wrapper p, .her-wrapper p, .kids-wrapper p, .accs-wrapper p{
     font-weight: lighter;
     margin-top: 10px;
+    color: black;
     margin-bottom: -12px;
     text-align: center;
 }
